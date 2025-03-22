@@ -1,0 +1,13 @@
+{
+    "id": "liratv",
+    "name": "LiraTV",
+    "active": true,
+    "language": ["ita"],
+    "thumbnail": "liratv.png",
+    "banner": "liratv.png",
+    "categories": ["tvshow", "documentary", "live"],
+    "not_active": ["include_in_newest"],
+    "default_off": [],
+    "settings": [],
+    "cloudflare": true
+}
