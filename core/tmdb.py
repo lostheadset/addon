@@ -992,7 +992,7 @@ class Tmdb(object):
         searching = ""
 
         if self.search_text:
-            url = ('{}/search/{}?api_key={}&query={}&language={}&include_adult={}&page={}'.format(host, self.search_type, api, text_quote, self.search_language, True, page))
+            url = ('{}/search/{}?api_key={}&query={}&language={}&include_adult={}&page={}'.format(host, self.search_type, api, text_quote, self.search_language, False, page))
 
             if self.search_year:
                 if self.search_type == 'movie':

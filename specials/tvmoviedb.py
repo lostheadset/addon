@@ -41,8 +41,8 @@ def mainlist(item):
             # itemlist.append(item.clone(title=config.get_localized_string(70023), action="filmaf", args="tv", thumbnail=thumb('search_tvshow')))
             # IMDB
             # item.clone(title=typo(config.get_localized_string(70025), 'bold'), action=""),
-            item.clone(title=config.get_localized_string(70021) % (config.get_localized_string(30122), 'IMDB'), action="imdb", args="movie", url='&title_type=feature,tv_movie', thumbnail=thumb('search_movie')),
-            item.clone(title=config.get_localized_string(70021) % (config.get_localized_string(30123), 'IMDB'), action="imdb", args="tv", url='&title_type=tv_series,tv_special,mini_series', thumbnail=thumb('search_tvshow')),
+            #item.clone(title=config.get_localized_string(70021) % (config.get_localized_string(30122), 'IMDB'), action="imdb", args="movie", url='&title_type=feature,tv_movie', thumbnail=thumb('search_movie')),
+            #item.clone(title=config.get_localized_string(70021) % (config.get_localized_string(30123), 'IMDB'), action="imdb", args="tv", url='&title_type=tv_series,tv_special,mini_series', thumbnail=thumb('search_tvshow')),
             item.clone(title=config.get_localized_string(70415), action="trakt", thumbnail="http://i.imgur.com/5sQjjuk.png"),
             item.clone(title=config.get_localized_string(70026), action="mal", thumbnail="http://i.imgur.com/RhsYWmd.png"),
             item.clone(title=typo(config.get_localized_string(70027), 'color std'), action="configuracion", folder=False)

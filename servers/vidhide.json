@@ -6,6 +6,10 @@
       {
         "pattern": "(?:vidhideplus)\\.(?:com)/(?:file)/([0-9a-zA-Z]+)",
         "url": "https://peytonepre.com/embed/\\1"
+      },
+      {
+        "pattern": "(?:smoothpre)\\.(?:com)/(?:file)/([0-9a-zA-Z]+)",
+        "url": "https://smoothpre.com//embed/\\1"
       }
     ]
   },
